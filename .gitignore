@@ -4,4 +4,10 @@ venv/
 env/
 .env
 
-__pycache__
+__pycache__/
+*.pyc
+*.pyo
+
+.vscode/
+.idea/
+.DS_Store
