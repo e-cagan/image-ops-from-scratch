@@ -2,11 +2,9 @@
 Module for applying gaussian blur to image
 """
 
-import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-from numpy.lib.stride_tricks import sliding_window_view
 
 from grayscale import to_grayscale
 from utils import make_gaussian_kernel_1d, convolve1d_axis
