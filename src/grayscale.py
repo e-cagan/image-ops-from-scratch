@@ -10,6 +10,8 @@ from PIL import Image
 def to_grayscale(img):
     """
     Function that grayscales the image.
+
+    img -> Image.
     """
 
     # DEBUG
